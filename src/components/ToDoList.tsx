@@ -1,6 +1,7 @@
 import React from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { Categories, categoryState, toDoSelector, toDoState } from "../atoms";
+import CreateCategory from "./CreateCategory";
 import CreateToDo from "./CreateToDo";
 import ToDo from "./ToDo";
 
@@ -19,6 +20,7 @@ function ToDoList() {
         <option value={Categories.DOING}>Doing</option>
         <option value={Categories.DONE}>Done</option>
       </select>
+      <CreateCategory />
       <CreateToDo />
       {toDos?.map((toDo) => (
         <ToDo key={toDo.id} {...toDo} />
