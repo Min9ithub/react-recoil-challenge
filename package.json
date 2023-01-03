@@ -55,7 +55,7 @@
     "@types/react-helmet": "^6.1.5",
     "@types/react-query": "^1.2.9",
     "@types/styled-components": "^5.1.26",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^4.0.3"
   },
   "homepage": "https://Min9ithub.github.io/react-challenge/"
 }
